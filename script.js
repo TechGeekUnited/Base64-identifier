@@ -12,6 +12,6 @@ window.onload = function() {
 			document.getElementById("docViewer").innerHTML = this.responseText;
 		}
 	};
-	xhttp.open("GET", decodedIdentifier, true);
+	xhttp.open("GET", decodedIdentifier + ".html", true);
 	xhttp.send();
 };
