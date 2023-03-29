@@ -5,6 +5,6 @@ window.onload = function() {
 	// Append ".html" to the query string to form the new URL
 	var newUrl = queryString + ".html";
 
-	// Use location.replace() to navigate to the new URL
-	window.location.replace(newUrl);
+	// Use document.location.replace() to navigate to the new URL
+	document.location.replace(newUrl);
 };
